@@ -65,3 +65,6 @@ if last_status != us_status:
     log.write(f"The Status of the flag has changed.\n")
 
 write_config('ct.json', data)
+
+#close log file
+log.close()
